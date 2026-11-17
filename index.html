@@ -1,1 +1,109 @@
 
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ScooterObi | Freestyle Scooter Parts</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #101014;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      padding: 24px 18px;
+      text-align: center;
+      background: #19191f;
+    }
+    h1 { margin: 0; font-size: 34px; }
+    .accent { color: #f5bd37; }
+    nav { margin-top: 16px; }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    .hero {
+      padding: 75px 20px;
+      text-align: center;
+      background: linear-gradient(#252530, #101014);
+    }
+    .hero h2 { font-size: 36px; }
+    .hero p { color: #bbb; }
+    .btn {
+      display: inline-block;
+      padding: 14px 25px;
+      background: #f5bd37;
+      color: #111;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section { padding: 35px 20px; }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
+      gap: 15px;
+    }
+    .product {
+      background: #202027;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+    }
+    .product .emoji { font-size: 45px; }
+    .product p { color: #bbb; }
+    footer {
+      padding: 30px;
+      text-align: center;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SCOOTER<span class="accent">OBI</span></h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#shop">Shop</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero" id="home">
+    <h2>RIDE. TRICK. REPEAT.</h2>
+    <p>Freestyle scooter parts & accessories</p>
+    <a class="btn" href="#shop">EXPLORE SHOP</a>
+  </div>
+
+  <section id="shop">
+    <h2>Our Products</h2>
+    <div class="products">
+      <div class="product">
+        <div class="emoji">🛴</div>
+        <h3>Scooter Decks</h3>
+        <p>Coming soon</p>
+      </div>
+      <div class="product">
+        <div class="emoji">⚙️</div>
+        <h3>Scooter Wheels</h3>
+        <p>Coming soon</p>
+      </div>
+      <div class="product">
+        <div class="emoji">🔩</div>
+        <h3>Bars & Parts</h3>
+        <p>Coming soon</p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>ScooterObi © 2026</p>
+    <p>Store opening soon!</p>
+  </footer>
+</body>
+</html>
+
